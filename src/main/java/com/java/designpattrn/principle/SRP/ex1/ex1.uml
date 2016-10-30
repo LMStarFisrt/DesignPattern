@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.java.com.java.designpattrn.pattern.SRP.ex1.IUserBiz</OriginalElement>
+  <nodes>
+    <node x="225.0" y="6.0">main.java.com.java.designpattrn.pattern.SRP.ex1.User</node>
+    <node x="48.25" y="160.0">main.java.com.java.designpattrn.pattern.SRP.ex1.UserInfo</node>
+    <node x="99.0" y="0.0">main.java.com.java.designpattrn.pattern.SRP.ex1.IUserBiz</node>
+    <node x="46.25" y="80.0">main.java.com.java.designpattrn.pattern.SRP.ex1.IUserInfo</node>
+    <node x="0.0" y="0.0">main.java.com.java.designpattrn.pattern.SRP.ex1.IUserBo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.java.com.java.designpattrn.pattern.SRP.ex1.IUserInfo" target="main.java.com.java.designpattrn.pattern.SRP.ex1.IUserBiz">
+      <point x="21.5" y="-15.0" />
+      <point x="110.75" y="55.0" />
+      <point x="139.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.pattern.SRP.ex1.IUserInfo" target="main.java.com.java.designpattrn.pattern.SRP.ex1.IUserBo">
+      <point x="-21.5" y="-15.0" />
+      <point x="67.75" y="55.0" />
+      <point x="39.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.pattern.SRP.ex1.UserInfo" target="main.java.com.java.designpattrn.pattern.SRP.ex1.IUserInfo">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="89.5" y="132.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

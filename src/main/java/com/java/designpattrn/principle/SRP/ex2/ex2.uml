@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.java.com.java.designpattrn.principle.SRP.ex2.IUserBiz</OriginalElement>
+  <nodes>
+    <node x="322.0" y="-22.0">main.java.com.java.designpattrn.principle.SRP.ex2.IUserBiz</node>
+    <node x="-68.0" y="-11.0">main.java.com.java.designpattrn.principle.SRP.ex2.IUserBo</node>
+    <node x="-68.0" y="207.0">main.java.com.java.designpattrn.principle.SRP.ex2.UserBo</node>
+    <node x="325.0" y="195.0">main.java.com.java.designpattrn.principle.SRP.ex2.UserBiz</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.java.com.java.designpattrn.principle.SRP.ex2.UserBiz" target="main.java.com.java.designpattrn.principle.SRP.ex2.IUserBiz">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.principle.SRP.ex2.UserBo" target="main.java.com.java.designpattrn.principle.SRP.ex2.IUserBo">
+      <point x="0.0" y="-84.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="194.5" y="296.5" />
+  <SelectedNodes>
+    <node>main.java.com.java.designpattrn.principle.SRP.ex2.IUserBiz</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

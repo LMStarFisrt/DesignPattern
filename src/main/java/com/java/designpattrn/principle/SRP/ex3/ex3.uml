@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.java.com.java.designpattrn.principle.SRP.ex3.IConnectionManager</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">main.java.com.java.designpattrn.principle.SRP.ex3.IDataTransfer</node>
+    <node x="97.25" y="80.0">main.java.com.java.designpattrn.principle.SRP.ex3.phone</node>
+    <node x="131.0" y="0.0">main.java.com.java.designpattrn.principle.SRP.ex3.IConnectionManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.java.com.java.designpattrn.principle.SRP.ex3.phone" target="main.java.com.java.designpattrn.principle.SRP.ex3.IConnectionManager">
+      <point x="17.25" y="-15.0" />
+      <point x="149.0" y="55.0" />
+      <point x="208.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.principle.SRP.ex3.phone" target="main.java.com.java.designpattrn.principle.SRP.ex3.IDataTransfer">
+      <point x="-17.25" y="-15.0" />
+      <point x="114.5" y="55.0" />
+      <point x="55.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="142.5" y="55.0" />
+  <SelectedNodes>
+    <node>main.java.com.java.designpattrn.principle.SRP.ex3.IConnectionManager</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
