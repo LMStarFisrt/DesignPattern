@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.java.com.java.designpattrn.principle.LSP.ex2.Client</OriginalElement>
+  <nodes>
+    <node x="0.0" y="155.0">main.java.com.java.designpattrn.principle.LSP.ex2.Client</node>
+    <node x="7.0" y="80.0">main.java.com.java.designpattrn.principle.LSP.ex2.Son1</node>
+    <node x="127.0" y="80.0">main.java.com.java.designpattrn.principle.LSP.ex2.Son2</node>
+    <node x="0.0" y="0.0">main.java.com.java.designpattrn.principle.LSP.ex2.Father1</node>
+    <node x="120.0" y="0.0">main.java.com.java.designpattrn.principle.LSP.ex2.Father2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.java.com.java.designpattrn.principle.LSP.ex2.Son1" target="main.java.com.java.designpattrn.principle.LSP.ex2.Father1">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.principle.LSP.ex2.Son2" target="main.java.com.java.designpattrn.principle.LSP.ex2.Father2">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="97.5" y="92.5" />
+  <SelectedNodes>
+    <node>main.java.com.java.designpattrn.principle.LSP.ex2.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

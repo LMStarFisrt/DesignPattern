@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>main.java.com.java.designpattrn.principle.LSP.ex1.AbstractGun</OriginalElement>
+  <nodes>
+    <node x="223.54166666666669" y="80.0">main.java.com.java.designpattrn.principle.LSP.ex1.MachineGun</node>
+    <node x="82.00000000000001" y="160.0">main.java.com.java.designpattrn.principle.LSP.ex1.AUG</node>
+    <node x="111.00000000000001" y="0.0">main.java.com.java.designpattrn.principle.LSP.ex1.AbstractGun</node>
+    <node x="122.0" y="235.0">main.java.com.java.designpattrn.principle.LSP.ex1.Client</node>
+    <node x="0.0" y="315.0">main.java.com.java.designpattrn.principle.LSP.ex1.Snipper</node>
+    <node x="117.54166666666667" y="80.0">main.java.com.java.designpattrn.principle.LSP.ex1.HandGun</node>
+    <node x="2.0" y="235.0">main.java.com.java.designpattrn.principle.LSP.ex1.Soldier</node>
+    <node x="0.0" y="160.0">main.java.com.java.designpattrn.principle.LSP.ex1.AK47</node>
+    <node x="40.54166666666667" y="80.0">main.java.com.java.designpattrn.principle.LSP.ex1.Rifle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.java.com.java.designpattrn.principle.LSP.ex1.HandGun" target="main.java.com.java.designpattrn.principle.LSP.ex1.AbstractGun">
+      <point x="0.0" y="-15.0" />
+      <point x="160.54166666666669" y="55.0" />
+      <point x="162.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.principle.LSP.ex1.Snipper" target="main.java.com.java.designpattrn.principle.LSP.ex1.Soldier">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.principle.LSP.ex1.AK47" target="main.java.com.java.designpattrn.principle.LSP.ex1.Rifle">
+      <point x="0.0" y="-15.0" />
+      <point x="31.0" y="135.0" />
+      <point x="54.79166666666667" y="135.0" />
+      <point x="-14.25" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.principle.LSP.ex1.Rifle" target="main.java.com.java.designpattrn.principle.LSP.ex1.AbstractGun">
+      <point x="0.0" y="-15.0" />
+      <point x="69.04166666666667" y="55.0" />
+      <point x="128.16666666666669" y="55.0" />
+      <point x="-34.33333333333334" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.principle.LSP.ex1.MachineGun" target="main.java.com.java.designpattrn.principle.LSP.ex1.AbstractGun">
+      <point x="0.0" y="-15.0" />
+      <point x="275.5416666666667" y="55.0" />
+      <point x="196.83333333333337" y="55.0" />
+      <point x="34.33333333333334" y="15.0" />
+    </edge>
+    <edge source="main.java.com.java.designpattrn.principle.LSP.ex1.AUG" target="main.java.com.java.designpattrn.principle.LSP.ex1.Rifle">
+      <point x="-1.4210854715202004E-14" y="-15.0" />
+      <point x="111.0" y="135.0" />
+      <point x="83.29166666666667" y="135.0" />
+      <point x="14.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="164.0" y="172.5" />
+  <SelectedNodes>
+    <node>main.java.com.java.designpattrn.principle.LSP.ex1.AbstractGun</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
