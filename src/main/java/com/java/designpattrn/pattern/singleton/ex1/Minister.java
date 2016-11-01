@@ -9,7 +9,7 @@ public class Minister {
         for (int i=0;i<5;i++) {
             Emperor emperor = Emperor.getInstance();
             System.out.println(emperor.hashCode());
-            Emperor.say();
+            emperor.say();
         }
     }
 

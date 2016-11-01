@@ -16,7 +16,7 @@ public class Emperor {
         return EMPEROR;
     }
 
-    public static void say(){
+    public void say(){
         System.out.println("我是秦始皇！");
     }
 
