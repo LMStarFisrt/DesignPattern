@@ -6,17 +6,14 @@ package main.java.com.java.designpattrn.pattern.singleton.ex1;
  */
 public class Emperor {
 
-    private static Emperor emperor=new Emperor();
+    private static final Emperor EMPEROR=new Emperor();
 
     private Emperor(){
 
     }
 
     public static Emperor getInstance(){
-        if(emperor==null){
-            emperor=new Emperor();
-        }
-        return emperor;
+        return EMPEROR;
     }
 
     public static void say(){
