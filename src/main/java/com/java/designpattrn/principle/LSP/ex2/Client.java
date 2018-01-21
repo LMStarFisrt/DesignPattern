@@ -1,4 +1,4 @@
-package main.java.com.java.designpattrn.principle.LSP.ex2;
+package com.java.designpattrn.principle.LSP.ex2;
 
 import java.util.HashMap;
 

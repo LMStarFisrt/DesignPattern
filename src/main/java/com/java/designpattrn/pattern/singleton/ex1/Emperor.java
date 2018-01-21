@@ -1,4 +1,4 @@
-package main.java.com.java.designpattrn.pattern.singleton.ex1;
+package com.java.designpattrn.pattern.singleton.ex1;
 
 /**
  * 皇帝类

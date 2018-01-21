@@ -1,4 +1,4 @@
-package main.java.com.java.designpattrn.pattern.singleton.ex2;
+package com.java.designpattrn.pattern.singleton.ex2;
 
 /**
  * Created by dadisdad on 2016/11/1.

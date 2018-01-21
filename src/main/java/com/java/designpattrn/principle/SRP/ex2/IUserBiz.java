@@ -1,4 +1,4 @@
-package main.java.com.java.designpattrn.principle.SRP.ex2;
+package com.java.designpattrn.principle.SRP.ex2;
 
 /**
  * 负责用户的行为

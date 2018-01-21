@@ -1,4 +1,4 @@
-package main.java.com.java.designpattrn.pattern.singleton.ex3;
+package com.java.designpattrn.pattern.singleton.ex3;
 
 import java.util.ArrayList;
 import java.util.List;

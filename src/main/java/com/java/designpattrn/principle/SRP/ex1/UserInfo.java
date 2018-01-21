@@ -1,4 +1,4 @@
-package main.java.com.java.designpattrn.principle.SRP.ex1;
+package com.java.designpattrn.principle.SRP.ex1;
 
 /**
  * 用户类

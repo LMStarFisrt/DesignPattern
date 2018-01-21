@@ -1,4 +1,4 @@
-package main.java.com.java.designpattrn.principle.LSP.ex1;
+package com.java.designpattrn.principle.LSP.ex1;
 
 /**
  * Created by dadisdad on 2016/11/1.
