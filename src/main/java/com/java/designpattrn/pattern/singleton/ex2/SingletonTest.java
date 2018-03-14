@@ -7,32 +7,23 @@ public class SingletonTest {
 
     public static void main(String[] args) {
         for (int i=0;i<10;i++){
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    Singleton1 singleton1=Singleton1.getInstance();
-                    System.out.println(singleton1.hashCode());
-                }
+            new Thread(() -> {
+                Singleton1 singleton1=Singleton1.getInstance();
+                System.out.println(singleton1.hashCode());
             }).start();
         }
 
         for (int i=0;i<10;i++){
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    Singleton2 singleton2=Singleton2.getInstance();
-                    System.out.println(singleton2.hashCode());
-                }
+            new Thread(() -> {
+                Singleton2 singleton2=Singleton2.getInstance();
+                System.out.println(singleton2.hashCode());
             }).start();
         }
 
         for (int i=0;i<10;i++){
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    Singleton3 singleton3=Singleton3.getInstance();
-                    System.out.println(singleton3.hashCode());
-                }
+            new Thread(() -> {
+                Singleton3 singleton3=Singleton3.getInstance();
+                System.out.println(singleton3.hashCode());
             }).start();
         }
     }
