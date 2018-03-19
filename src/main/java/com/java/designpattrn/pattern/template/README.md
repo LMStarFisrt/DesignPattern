@@ -1,4 +1,4 @@
-# Template Method Factory
+# Template Method Pattern
 模板方法模式
 
 定义一个操作中的算法框架，而将一些步骤延迟到子类中。
